@@ -3,6 +3,8 @@ GEM
   specs:
     byebug (11.0.1)
     minitest (5.11.3)
+    minitest-display (0.3.1)
+      minitest (~> 5.0)
     minitest-sprint (1.2.0)
       path_expander (~> 1.0)
     path_expander (1.0.3)
@@ -13,7 +15,8 @@ PLATFORMS
 DEPENDENCIES
   byebug
   minitest (= 5.11.3)
-  minitest-sprint
+  minitest-display
+  minitest-sprint (= 1.2.0)
 
 BUNDLED WITH
    2.0.1
